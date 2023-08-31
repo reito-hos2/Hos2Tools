@@ -1,0 +1,32 @@
+# .gitignore
+
+# Python関連
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 環境設定ファイル
+.env
+
+# IDE関連
+.idea/
+.vscode/
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# ログファイル
+*.log
+
+# その他
+*.swp
+*.swo
+
+# 入出力ファイル
+**/output/*
+**/input/*
